@@ -2,4 +2,4 @@
 **Team Code:** CN268  
 **Problem Code:** WD207  
 **Problem Statement:** Health and Wellness Tracker
-![Work Flow](https://drive.google.com/file/d/1M-JqzC74s0lXmYqxj1ArxY7cVL1VZRyq/view?usp=drive_link)
+![Work Flow](https://github.com/PRIYOBROTOKARMAKAR/health-and-wellness-tracker2/blob/main/Fitness%20Flow_page-0001.jpg)

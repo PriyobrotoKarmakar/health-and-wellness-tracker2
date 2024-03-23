@@ -1,0 +1,80 @@
+.page1 {
+    height: 200vh;
+    width: 100%;
+    background-color: black;
+  }
+  .banner {
+    height: 500px;
+    width: 100%;
+   background-size: cover;
+    background-image: url(assets/gym2.jpg);
+    
+  }
+  
+  .card-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .cards {
+    height: 80%;
+    width: 20%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+  #c1 {
+    background-image: url(https://media.tenor.com/gI-8qCUEko8AAAAM/pushup.gif);
+    
+  }
+  #c2 {
+    background-image: url(https://media.tenor.com/2RLVcpiX_mIAAAAM/sit-up.gif);
+  }
+  #c3 {
+    background-image: url(https://assets-v2.lottiefiles.com/a/b8ff5496-4162-11ee-8471-fb5cac1c4de6/eWZZfv0tat.gif);
+  }
+  #c4 {
+    background-image: url(https://assets-v2.lottiefiles.com/a/8c2969a2-116a-11ee-ae24-8ba0ad01121d/SvaCaM18NR.gif);
+  }
+  #c5 {
+    background-image: url(https://i.pinimg.com/originals/13/a2/14/13a2141394abeb64c23119af7cfa123e.gif);
+    
+  }
+  #c6 {
+    background-image: url(https://i.pinimg.com/originals/c8/b3/3b/c8b33ba060b1edbd7ca826e1faf6ba0f.gif);
+  }
+  #c7 {
+    background-image: url(https://i.gifer.com/BEAK.gif);
+  }
+  #c8 {
+    background-image: url(https://i.pinimg.com/originals/51/e5/d9/51e5d9b2ddead29164c5f8e7132dd557.gif);
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.607);
+    padding-top: 160px;
+    opacity: 0;
+    transition: all ease 0.6s;
+  }
+  .overlay h4 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+  .overlay p {
+    color: white;
+    font-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .cards:hover .overlay {
+    opacity: 1;
+  }

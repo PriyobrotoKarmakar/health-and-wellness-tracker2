@@ -1,0 +1,79 @@
+.page1 {
+    height: 200vh;
+    width: 100%;    
+    background-color: black;
+  }
+  .banner {
+    height: 500px;
+    width: 100%;
+   background-size: cover;
+    background-image: url(part1/sleep2.jpeg);
+    
+  }
+  
+  .card-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .cards {
+    height: 80%;
+    width: 20%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+  #c1 {
+    background-image: url(https://www.fundacionmapfre.org/media/blog/cafe-1194x585-1.jpg);
+  }
+  #c2 {
+    background-image: url(https://s.yimg.com/ny/api/res/1.2/EFhMTBRYqm1Eqg.6UXQl3A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-12/df8be0b0-20bf-11ea-8fd7-6294eccf83cd);
+  }
+  #c3 {
+    background-image: url(data:image/jpeg;base64,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);
+  }
+  #c4 {
+    background-image: url(https://domf5oio6qrcr.cloudfront.net/medialibrary/2293/l0908b16207233934035.jpg)
+}
+  #c5 {
+    background-image: url(https://www.oceans7ashwem.com/images/yoga.jpg);
+    
+  }
+  #c6 {
+    background-image: url(https://live-production.wcms.abc-cdn.net.au/cf208bb8cf0dc603d3cdb4026894be19?impolicy=wcms_crop_resize&cropH=563&cropW=1000&xPos=0&yPos=0&width=862&height=485);
+  }
+  #c7 {
+    background-image: url(https://farmfreshbangalore.com/cdn/shop/files/GiftBox.jpg?v=1696940603);
+  }
+  #c8 {
+    background-image: url(https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2023/11/1140-pouring-water-over-hydration.jpg);
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.607);
+    padding-top: 160px;
+    opacity: 0;
+    transition: all ease 0.6s;
+  }
+  .overlay h4 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+  .overlay p {
+    color: white;
+    font-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .cards:hover .overlay {
+    opacity: 1;
+  }

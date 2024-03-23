@@ -1,0 +1,80 @@
+.page1 {
+    height: 200vh;
+    width: 100%;    
+    background-color: black;
+  }
+  .banner {
+    height: 500px;
+    width: 100%;
+   background-size: cover;
+    background-image: url(part1/yoga3.jpeg);
+    
+  }
+  
+  .card-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .cards {
+    height: 80%;
+    width: 20%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+  #c1 {
+    background-image: url(https://s.yimg.com/ny/api/res/1.2/NCA9cLl63F_EWfLonRvgbQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://media.zenfs.com/en/sheknows_79/98d2e019a4c6428140ee9e6a3de35157);
+    
+  }
+  #c2 {
+    background-image: url(https://imgk.timesnownews.com/story/yoga-asana-seated-forward-bend.gif);
+  }
+  #c3 {
+    background-image: url(https://i.pinimg.com/originals/ed/72/0c/ed720c529f9361e969e06a4984bcbdf2.gif);
+  }
+  #c4 {
+    background-image: url(https://www.downward-facing.blog/visuels/275/kapalabhati.gif);
+  }
+  #c5 {
+    background-image: url(https://i.pinimg.com/originals/39/f7/6e/39f76eca2b51783ee84bda2bd96544e3.gif);
+    
+  }
+  #c6 {
+    background-image: url(https://i.pinimg.com/originals/04/b9/cf/04b9cfc376a8c4dd142d80107e7f8a8e.gif);
+  }
+  #c7 {
+    background-image: url(https://t4.ftcdn.net/jpg/04/73/22/75/360_F_473227572_eJGygEBUNiyyO9LDOQqwvzetHofqfT16.jpg);
+  }
+  #c8 {
+    background-image: url(https://media.istockphoto.com/id/1361478813/vector/low-lunge-pose-anjaneyasana-crescent-low-lunge-pose-crescent-moon-pose.jpg?s=612x612&w=0&k=20&c=pLMBt8E2K0Ks8iqTdnLCkHcW7BqqngTAM8gFgS25EC4=);
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.607);
+    padding-top: 160px;
+    opacity: 0;
+    transition: all ease 0.6s;
+  }
+  .overlay h4 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+  .overlay p {
+    color: white;
+    font-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .cards:hover .overlay {
+    opacity: 1;
+  }

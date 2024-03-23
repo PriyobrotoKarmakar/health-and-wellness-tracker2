@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointment Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css"/>
+</head>
+<body>
+    <video autoplay loop muted plays-inline class = "back-video">
+        <source src = "1.mp4" type ="video/mp4">
+    </video>
+    <div class="container">
+        <h1 class="form-title">Contact Us</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <div class="r"><label for="firstName">First Name</label></div>
+                    <input type="text"
+                            id="fullName"
+                            name="FullName"
+                            placeholder="Enter First Name"
+                            pattern="[^\d]+"
+                            required
+                            />
+                </div>
+                <div class="user-input-box">
+                    <label for="userName">Last Name</label>
+                    <input type="text"
+                            id="userName"
+                            name="userName"
+                            placeholder="Enter Last Name"
+                            required
+                            />
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Enter Email"
+                            required
+                            />
+                </div>
+                <div class="user-input-box">
+                    <div class="t"><label for="phoneNumber">Phone Number</label></div>
+                    <input type="text"
+                            id="phoneNumber"
+                            name="phoneNumber"
+                            placeholder="Enter Phone Number"
+                            required
+                            />
+                </div>
+                
+            </div>
+            
+
+            <div class="date">
+                <label for="Date"><u>Prefer Date For Call</u></label><br>
+                <input type="text"
+                        id="Date"
+                        name="Date"
+                        placeholder="DD/MM/YY"/>
+            </div>
+            
+            <div class="form-group">
+                <p id="quest">Prefer Timings</p>
+            <select name="role" id="dropdown" class="formControl">
+                <option value="" disabled selected>Select</option>
+                <option value="">9:00am-11:00am</option>
+                <option value="">12:00pm-2:00pm</option>
+                <option value="">4:00pm-6:00pm</option>
+                <option value="">7:00pm-9:00pm</option>
+            
+    
+            </select> </div>
+
+            
+    
+        
+            <div class="form-submit-btn">
+                <a href=home.html><input type="text" value="Submit"></a>
+            </div>
+            <div class="contact-details"><br>
+                <h3>Or</h3><br>
+            </div>
+                <p><b><i>mail to: fitclub@gmail.com</i></b></p>
+                <p><b><i>contactto: 8695675912</i></b></p>
+                <p><b><i>Available 24*7</i></b></p>
+        </form>
+
+    </div>
+    
+</body>
+</html>

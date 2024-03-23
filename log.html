@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="log.css">
+</head> 
+<body>
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="backki1.mp4" type="video/mp4">
+            
+        </video>
+        <div class="container"> 
+            <form>
+                <h1>Login Page</h1>
+                <div class="input-group">
+                    <label for="user-name">User Name</label>
+                    <input type="text" id="User-name" placeholder="Enter user-name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Enter your password</label>
+                    <textarea id="password" placeholder="Enter your password" pattern="[a-Za-z]{8}"></textarea>
+                </div>
+                <div class="fpass">
+                    <label>Forgot password</label>
+                </div>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

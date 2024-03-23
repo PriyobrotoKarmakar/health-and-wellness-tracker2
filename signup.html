@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="Hackathon.mp4" type="video/mp4" />
+    </video>
+    <!--signup code-->
+    <div class="s">
+      <form method="post" id="signup">
+        <h1>Sign Up</h1>
+        <div class="e">
+          <fieldset>
+            <fieldset>
+              <label for="Name"
+                >Name<input
+                  id="Name"
+                  name="Name"
+                  type="text"
+                  required
+                  placeholder="Enter your Name"
+                  pattern="[^\d]+"
+                  title="Username should not contain numbers."
+              /></label>
+              <label for="new-password"
+                >Password<input
+                  id="password"
+                  name="new-password"
+                  required
+                  type="password"
+                  pattern="[a-Za-z]{8}"
+                  placeholder="Create a password"
+              /></label>
+              <label for="email"
+                >Email<input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  placeholder="Enter your email"
+              /></label>
+              <div class="q">
+                <label for="age"
+                  >Age<input
+                    id="age"
+                    name="age"
+                    type="number"
+                    required
+                    placeholder="Enter your age"
+                    min="7"
+                    max="100"
+                /></label>
+                <label for="Gender"
+                  >Gender
+                  <select id="Gender" name="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </label>
+              </div>
+              <div class="p">
+                <label for="Height"
+                  >Height (in cm)<input
+                    id="Height"
+                    name="Height"
+                    type="number"
+                    required
+                    placeholder="Enter your Height"
+                    min="30"
+                    max="305"
+                /></label>
+                <label for="Weight"
+                  >Weight (in kg)<input
+                    id="Weight"
+                    name="Weight"
+                    type="number"
+                    required
+                    placeholder="Enter your Weight"
+                    min="5"
+                    max="300"
+                /></label>
+              </div>
+            </fieldset>
+            <label for="terms-and-conditions">
+              <input
+                class="inline"
+                id="terms-and-conditions"
+                type="checkbox"
+                required
+                name="terms-and-conditions"
+              />
+              I accept the terms and conditions
+            </label>
+            <button
+              class="submit"
+              type="submit"
+              value="Submit"
+              onclick="register()"
+            >
+              Get Started
+            </button>
+          </fieldset>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyB-ATTETa7DSD7vjc9y_HWUuLnoxDiukbM",
+      authDomain: "register-with-firebase-92fe3.firebaseapp.com",
+      projectId: "register-with-firebase-92fe3",
+      storageBucket: "register-with-firebase-92fe3.appspot.com",
+      messagingSenderId: "719482186501",
+      appId: "1:719482186501:web:4b9ba9ba243cfb4cb6656c"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+  <script
+    type="module"
+    src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js"
+  ></script>
+  <script
+    type="module"
+    src="https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js"
+  ></script>
+  <script src="signup.js"></script>
+</html>
